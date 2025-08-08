@@ -17,7 +17,7 @@ except socket.error as msg:
 print("Socket binding is complete !, now we can proceed with the socket listening!")\
 
 mysocket.listen(10)
-print("Socket is not listening!!")
+print("Socket is now listening!!")
 
 while 1:
       connection,address=mysocket.accept()
