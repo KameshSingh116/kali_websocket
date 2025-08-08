@@ -5,7 +5,7 @@ HOST=''
 PORT=8080
 
 
-mysocket=sockt.socket(socket.AF_INET,socket.SOCK_STREAM)
+mysocket=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 print("The socket  has been created!!")
 
 try:
